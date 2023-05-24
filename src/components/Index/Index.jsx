@@ -1,11 +1,8 @@
 import '../style/images.css';
 import PostList from '../API/getpostmain';
-
-
 import {Container,Card, } from '@mui/material';
 import CardContent from '@mui/material/CardContent';
 import * as React from 'react';
-
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
@@ -24,21 +21,24 @@ import { useState,useEffect } from 'react'
 import Alert from '@mui/material/Alert';
 import Badge from '@mui/material/Badge';
 import { useNavigate } from "react-router-dom";
-
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
 
 
 
 
 
+
 function IndexPage() {
-  
+
+
+
+
 
   let navigate = useNavigate();
-const [open, setOpen] = React.useState(false);
- const [data, setData] = useState([]);
+  const [open, setOpen] = React.useState(false);
+  const [data, setData] = useState([]);
 
- useEffect(() => {
+  useEffect(() => {
    const items = JSON.parse(localStorage.getItem('cart')) || [];
    setData(items);
 
@@ -76,13 +76,10 @@ const [open, setOpen] = React.useState(false);
 
     <div >
 
-
-
-
-
-<CardContent/>
-<Container>
-<Card >
+    <CardContent/>
+      <Container>
+    
+        <Card >
 
 
 </Card>

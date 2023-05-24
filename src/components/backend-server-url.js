@@ -36,11 +36,13 @@
         identificated:'/api/v1/news/post/identificated',
         post_delete:'/api/v1/news/post/delete'
     },
-    gmail:'magazbekovarsen@gmail.com',
+    gmail:'Abad@gmail.com',
 
     order:'/api/v1/news/post/order',
     catgeory:'/api/v1/category/get/all',
     filter:'/api/v1/product/filter/?category__category=',
+    mainFilter:'/api/v1/product/main/filter/?category__category=',
+    
     
     }
 
