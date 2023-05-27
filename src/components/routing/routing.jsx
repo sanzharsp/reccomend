@@ -13,7 +13,6 @@ import CheckOut from '../../Pages/CheckOut.jsx/CheckOut'
 
 
 const Routings = (props) => {
-
     let routes = useRoutes([
       { path: "/", element: <IndexPage/> },
       { path: "*" , element: <NotfoundPage/>},
@@ -27,13 +26,7 @@ const Routings = (props) => {
       { path: "search", element: <LiveSearchFilter/>},
       { path: "profile", element: <Profile/>},
       { path: "checkout", element: <CheckOut/>},
-
-      
-
-      
-     
     ]);
     return routes;
-
 }
 export default Routings

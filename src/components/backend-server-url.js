@@ -11,10 +11,10 @@
 
     'social':{
 
-        'vk':'https://vk.com/magazzbekov',
+        'vk':'https://vk.com/abad',
         'linkedin':'https://wa.me/message/Y4XY75EQWM47A1',
         'github':'#',
-        'instagram':'https://instagram.com/magazzbekov?igshid=YmMyMTA2M2Y=',
+        'instagram':'https://instagram.com/abad?igshid=YmMyMTA2M2Y=',
     },
     Auth:{
         login:'/api/v1/login/',
